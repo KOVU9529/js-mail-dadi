@@ -1,6 +1,6 @@
 /*NUMERO PIù ELEVATO TRA UTENTE E PC*/
 
-//SCELTA UTENTE NUMERO DA 1 A 6
+//SCELTA RANDOM UTENTE NUMERO DA 1 A 6
 
 const userNumber = Math.floor(Math.random()*6)+1;
 console.log(userNumber);

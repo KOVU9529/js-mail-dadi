@@ -16,7 +16,7 @@ emailFounf = true*/
 
 let emailFound = false;
 
-for (let i=0; i <= email.length; i++) {
+for (let i=0; i < email.length; i++) {
     const thisEmail= email[i];
     if (thisEmail === userEmail){
         emailFound= true;
