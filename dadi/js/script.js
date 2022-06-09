@@ -2,7 +2,7 @@
 
 //SCELTA UTENTE NUMERO DA 1 A 6
 
-const userNumber = parseInt(prompt('Dammi un numero da 1 a 6'));
+const userNumber = Math.floor(Math.random()*6)+1;
 console.log(userNumber);
 
 //SCELTA RANDOM PC NUMERO DA 1 A 6
